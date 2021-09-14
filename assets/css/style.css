@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+body {
+    background: #4E5BEE;
+}
+
+.logo {
+    text-align: center;
+}
+
+.container {
+    width: 18.77em;
+    background-color: #fff;
+    margin: 6.25em auto 8.44em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    width: 18.75em;
+    height: 3.125em;
+    border-radius: 1.563em;
+    border: 0.13em solid #fff;
+    background-color: #4E5BEE;
+    padding-left: 2.71em;
+}
+
+input[type='email'] {
+    background-image: url('../img/subtract.svg');
+    background-repeat: no-repeat;
+    background-size: 1.25em 1.25em;
+    background-position: 1.25em 0.688em;
+    margin-bottom: 1.25em;
+}
+
+input[type='password'] {
+    background-image: url('../img/lock_24px.png');
+    background-repeat: no-repeat;
+    background-size: 1em 1.313em;
+    background-position: 1.25em 0.688em;
+    margin-bottom: 1.69em;
+}
+
+input[type='submit'] {
+    background-color: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    color: #504f5c;
+    padding: 0;
+}
+
+@media(max-width: 375px){
+    .logo__img {
+        width: 11.063em;
+        height: 4.362em;
+    }
+
+}
