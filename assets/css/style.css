@@ -57,8 +57,19 @@ input[type='email'] {
     background-image: url('../img/subtract.svg');
     background-repeat: no-repeat;
     background-size: 1.25em 1.25em;
-    background-position: 1.25em 0.688em;
-    margin-bottom: 1.25em;
+    background-position: 1.25em 0.688em; 
+}
+
+.email--invalid {
+    border: 0.13em solid #ff0000;
+}
+
+.span--valid {
+    display: none;
+}
+
+.span--invalid {
+    color: #fff;
 }
 
 input[type='password'] {
@@ -66,6 +77,7 @@ input[type='password'] {
     background-repeat: no-repeat;
     background-size: 1em 1.313em;
     background-position: 1.25em 0.688em;
+    margin-top: 1.30em;
     margin-bottom: 1.69em;
 }
 
@@ -79,6 +91,7 @@ input[type='submit'] {
     padding: 0;
     width: 13.85em;
     height: 2.50em;
+    cursor: pointer;
 }
 
 .help {
