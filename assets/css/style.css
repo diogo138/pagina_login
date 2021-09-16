@@ -48,7 +48,9 @@ input {
     border-radius: 1.563em;
     border: 0.13em solid #fff;
     background-color: #4E5BEE;
-    padding-left: 2.71em;
+    padding-left: 2.90em;
+    color: #fff;
+    font-family: 'Roboto';    
 }
 
 input[type='email'] {
