@@ -11,8 +11,8 @@ btnSubmit.addEventListener('click',(event)=> {
     
     if(!validateEmail(inputEmail.value)){
         event.preventDefault();
+        inputEmail.style.backgroundImage = "url('assets/img/at-error.png')"
         inputEmail.classList.add('email--invalid')
         span.classList.remove('span--valid')
     }
 });
-

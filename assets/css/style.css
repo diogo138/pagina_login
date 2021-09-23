@@ -46,7 +46,7 @@ input {
     width: 18.75em;
     height: 3.125em;
     border-radius: 1.563em;
-    border: 0.13em solid #fff;
+    border: 0.16em solid #fff;
     background-color: #4E5BEE;
     padding-left: 2.90em;
     color: #fff;
@@ -54,14 +54,14 @@ input {
 }
 
 input[type='email'] {
-    background-image: url('../img/subtract.svg');
+    background-image: url('../img/at.png');
     background-repeat: no-repeat;
     background-size: 1.25em 1.25em;
     background-position: 1.25em 0.688em; 
 }
 
 .email--invalid {
-    border: 0.13em solid #ff0000;
+    border: 0.16em solid #ff0000;
 }
 
 .span--valid {
